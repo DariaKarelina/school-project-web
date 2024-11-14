@@ -1,0 +1,18 @@
+
+.menu{
+    
+    grid-area: m;
+   
+    background-color: rgb(41, 157, 235);
+    div { display: inline; }
+    font-size: x-large;
+    color: rgb(253, 253, 253);
+
+    display: grid;
+    grid-template-areas: 
+    "menu-home" "menu-notes" "menu-hw" "menu-self" "menu-about";
+     
+    grid-template-columns: 1fr 1fr 2fr 2fr 1fr;
+    word-spacing: 0;
+  }
+  

@@ -1,0 +1,15 @@
+.feedback{
+    grid-area: fb;
+         
+    display: grid;
+    grid-template-areas: 
+    "m"
+    "headers"
+    "t-and-fb";
+
+    grid-template-rows: 2fr 3fr 6fr;
+
+
+  
+
+}

@@ -1,0 +1,11 @@
+.about-course{
+    grid-area: course;
+    margin: 0 auto;
+}
+
+.text{
+    grid-area: text;
+    font-size: xx-small;
+    margin-top: 3fr;
+
+}
