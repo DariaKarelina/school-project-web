@@ -21,7 +21,7 @@ const App = () => {
         {/* <Homework/> */}
         {/* <Self/> */}
         {/* <About/> */}
-        {/* <Feedback/> ПРОБЛЕМЫ ЖОООСКИЕ*/}
+        {/* <Feedback/>*/}
         {/* <Topic1/> */}
         {/* <Homework1/> */}
 
