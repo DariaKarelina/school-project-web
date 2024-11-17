@@ -1,6 +1,14 @@
 .about-course{
     grid-area: course;
     margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "h-about"
+    "text";
+}
+
+.head-about{
+    grid-area: h-about;
 }
 
 .text{
