@@ -1,5 +1,5 @@
-import { Router } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route, a } from 'react-router-dom';
+// import { Router } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route, a } from 'react-router-dom';
 import './Menu.css';
 import Home from './home1Home';
 const Menu = () => {
@@ -15,11 +15,11 @@ const Menu = () => {
         
             <dev className="menu-about"><a href='/about'>О курсе </a></dev>
         
-            <Router>
-                <Switch>
-                    <Route exact path='/home' component={Home}/>
-                </Switch>
-            </Router>
+            // <Router>
+            //     <Switch>
+            //         <Route exact path='/home' component={Home}/>
+            //     </Switch>
+            // </Router>
 
 
         </div>
