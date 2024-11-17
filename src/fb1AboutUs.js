@@ -3,7 +3,7 @@ import "./fb1AboutUs.css";
 const AboutUs = () => {
     return(
         <div className="about-course">
-            
+            <div className="head-about">О курсе</div> 
             <div className="text">Last Christmas
                 I gave you my heart
                 But the very next day you gave it away
