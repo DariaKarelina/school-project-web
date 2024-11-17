@@ -8,8 +8,6 @@ const TextAndFeedback = () =>{
             <AboutUs/>
             <InfoForFB/>
         </div>
-
     );
 }
-
 export default TextAndFeedback;
