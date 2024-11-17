@@ -2,14 +2,10 @@
     grid-area: fb;
          
     display: grid;
+    margin: 0 auto;
     grid-template-areas: 
     "m"
-    "headers"
     "t-and-fb";
 
-    grid-template-rows: 2fr 3fr 6fr;
-
-
-  
-
+    grid-template-rows: 1fr 8fr; 
 }
