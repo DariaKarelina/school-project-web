@@ -1,33 +1,32 @@
 import './App.css';
-import Home from './home1Home';
-import Notes from './notes1Notes';
-import Homework from './hw1Homework';
-import Self from './self1Self';
-import Feedback from './fb1Feedback';
-import Topic1 from './notes2Topic1';
-import Homework1 from './hw2Homework1';
+import Home from './Home/home1Home.js';
+import { BrowserRouter } from 'react-router-dom';
+import Menu from "./Menu.js";
+// import Notes from './Notes/page1/notes1Notes';
+// import Homework from './Homework/page1/hw1Homework';
+// import Self from './SelfStudy/self1Self';
+// import Feedback from './Feedback+AboutUs/fb1Feedback';
+// import Topic1 from './Notes/page2/notes2Topic1';
+// import Homework1 from './Homework/page2/hw2Homework1';
 
 
-/*import {BrowserRouter, Routes, Route} from "react-router-dom";*/
 
 
 const App = () => {
   return (
     
       <div className="Web">
-        
-        {/* <Home/> */}
-        <Notes/>
+        <BrowserRouter>
+          <Menu/>
+        </BrowserRouter>
+        <Home/>
+        {/* <Notes/> */}
         {/* <Homework/> */}
         {/* <Self/> */}
         {/* <About/> */}
-        {/* <Feedback/>*/}
+        {/* <Feedback/>  */}
         {/* <Topic1/> */}
         {/* <Homework1/> */}
-
-
-
-
 
       </div>
      
