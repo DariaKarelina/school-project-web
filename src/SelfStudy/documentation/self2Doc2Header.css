@@ -1,0 +1,15 @@
+.doc-header{
+    grid-area: doc;
+
+    grid-template-areas: 
+    "m"
+    "h-doc";
+
+    grid-template-rows: 1fr 3fr;
+}
+
+.head-for-doc{
+    grid-area: h-doc;
+    margin: 0 auto;
+    font-size: xx-large;
+}

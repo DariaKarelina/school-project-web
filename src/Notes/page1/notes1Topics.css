@@ -1,0 +1,14 @@
+.topics{
+    grid-area: topics;
+    margin: 0 auto;
+    font-size: x-large;
+
+    color: black;
+    background-color: rgb(41, 157, 235);
+    padding: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
+    
+    line-height: 2;
+
+}

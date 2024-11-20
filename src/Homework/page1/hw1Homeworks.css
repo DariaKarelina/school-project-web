@@ -1,0 +1,17 @@
+.homeworks{
+    grid-area: works;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "hw1"
+    "hw2"
+    "hw3"
+    "hw4"
+    "hw5"
+    "hw6";
+
+    font-size: x-large;
+    line-height: normal;
+
+}

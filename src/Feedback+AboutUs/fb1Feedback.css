@@ -1,0 +1,11 @@
+.feedback{
+    grid-area: fb;
+         
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas: 
+    "m"
+    "t-and-fb";
+
+    grid-template-rows: 1fr 8fr; 
+}
