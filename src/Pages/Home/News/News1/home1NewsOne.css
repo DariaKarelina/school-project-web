@@ -1,0 +1,7 @@
+.news1{
+    grid-area: n1;
+    margin-left: 1em;
+    padding: 5em;
+    div { display: inline; }
+    background-color: rgb(41, 157, 235);
+}

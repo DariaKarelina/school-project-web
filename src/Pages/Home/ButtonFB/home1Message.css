@@ -1,0 +1,12 @@
+.message{
+    grid-area: mes;
+    
+    margin-bottom: 10em;
+    margin: 0 auto;
+}
+
+.message-for-t{
+    grid-area: text-mes;
+    font-size: x-large;
+
+}

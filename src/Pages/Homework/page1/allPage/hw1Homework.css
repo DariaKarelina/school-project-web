@@ -1,0 +1,24 @@
+.homework{
+    grid-area: home;
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "m"
+    "head-f-h"
+    "works";
+  
+    grid-template-rows: 1fr 1fr 4fr;
+    
+    margin: 0 auto;
+
+    
+}
+
+.head-for-homework{
+    grid-area: head-f-h;
+    margin: 0 auto;
+    font-size: xx-large;
+    padding-bottom: 0px;
+}
+

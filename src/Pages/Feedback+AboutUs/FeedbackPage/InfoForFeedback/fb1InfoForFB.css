@@ -1,0 +1,35 @@
+.info{
+    grid-area: info;
+    display: grid;
+    grid-template-areas:
+        "h-feedback" 
+        "u-name" 
+        "email" 
+        "message" 
+        "send";
+
+    grid-template-rows: 1fr 2fr 2fr 4fr 2fr ;
+
+
+}
+
+.head-fb{
+
+    grid-area: h-feedback;
+}
+
+.users-name{
+    grid-area: u-name;
+}
+
+.email{
+    grid-area: email;
+}
+
+.msg{
+    grid-area: message;
+}
+
+.send{
+    grid-area: send;
+}
