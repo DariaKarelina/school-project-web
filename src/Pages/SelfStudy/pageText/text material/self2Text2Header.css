@@ -1,0 +1,15 @@
+.text-head{
+    grid-area: text;
+
+    grid-template-areas: 
+    "m"
+    "h-text";
+
+    grid-template-rows: 1fr 3fr;
+}
+
+.head-for-text{
+    grid-area: h-text;
+    margin: 0 auto;
+    font-size: xx-large;
+}
