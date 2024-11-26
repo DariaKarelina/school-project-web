@@ -1,0 +1,19 @@
+.self-study{
+    grid-area: ss;
+    display: grid;
+
+    grid-template-areas: 
+    "m"
+    "head"
+    "mat";
+  
+    grid-template-rows: 1fr 3fr 6fr;
+    
+
+}
+
+.head-for-self{
+    grid-area: head;
+    margin: 0 auto;
+    font-size: xx-large;
+}
