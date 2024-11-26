@@ -24,7 +24,7 @@ const Menu = () => {
             </div> 
 
             <div className="menu-about"> 
-                <a href="/about"> О курсе </a> 
+                <a href="/feedback"> О курсе </a> 
             </div> 
 
     </div> 
