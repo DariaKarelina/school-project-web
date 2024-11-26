@@ -1,0 +1,7 @@
+.doc{
+    grid-area: doc; 
+    display: block;
+    margin-left: 17em;
+    margin-right: 3em;
+    font-size: x-large;
+ }

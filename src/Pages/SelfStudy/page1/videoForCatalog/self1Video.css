@@ -1,0 +1,8 @@
+.video{
+    grid-area: v;
+    display: block;
+    margin-left: 17em;
+    margin-right: 3em;
+    font-size: x-large;
+
+}

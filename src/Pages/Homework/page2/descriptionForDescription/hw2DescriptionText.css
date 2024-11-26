@@ -1,0 +1,21 @@
+.description-text{
+    grid-area: desc-t;
+    display: block;
+    margin-top: 4%;
+  
+
+}
+
+.head-for-description{
+    grid-area: h-desc;
+    font-size: x-large;
+    margin: 0 auto;
+}
+
+.text-for-description{
+    grid-area: t-desc;
+    font-size: small;
+    margin: 0 auto;
+    background-color: rgb(172, 209, 233);
+    margin-top: 5% ;
+}

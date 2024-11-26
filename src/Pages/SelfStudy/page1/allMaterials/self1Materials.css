@@ -1,0 +1,16 @@
+.materials{
+    grid-area: mat;
+    display: block;
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: rgb(172, 209, 233);
+    line-height: 3em;
+
+
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: rgb(6, 67, 174);
+}

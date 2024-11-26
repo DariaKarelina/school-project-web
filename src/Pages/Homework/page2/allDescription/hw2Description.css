@@ -1,0 +1,10 @@
+.description{
+    grid-area: desc;
+
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+
+
+}

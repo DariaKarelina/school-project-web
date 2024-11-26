@@ -1,0 +1,18 @@
+.description-info{
+    grid-area: desc-i;
+    display: block;
+    margin-top: 12em;
+}
+
+.deadline{
+    grid-area: deadl;
+
+}
+
+.marks{
+    grid-area: marks;
+}
+
+.links-to-material{
+    grid-area: links;
+}
