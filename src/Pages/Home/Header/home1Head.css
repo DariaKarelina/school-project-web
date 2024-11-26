@@ -1,0 +1,24 @@
+.header{
+    display: block;
+    grid-area: h;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.name{
+    grid-area: name;
+    font-size: xx-large;
+    margin-left: 7em;
+    margin-right: 7em;
+    
+
+}
+
+.description{
+    grid-area: descrip;
+    font-size: x-small;
+    div{display: inline;}
+    margin-top: 1em;
+
+}
+

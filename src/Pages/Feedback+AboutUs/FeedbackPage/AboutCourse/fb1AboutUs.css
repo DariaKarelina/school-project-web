@@ -1,0 +1,21 @@
+.about-course{
+    grid-area: course;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "h-about"
+    "text";
+}
+
+.head-about{
+    grid-area: h-about;
+    margin: 0 auto;
+    font-size: x-large;
+}
+
+.text{
+    grid-area: text;
+    font-size: xx-small;
+    margin-top: 3fr;
+
+}
