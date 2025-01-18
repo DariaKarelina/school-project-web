@@ -1,0 +1,21 @@
+.header{
+    display: block;
+    grid-area: h;
+    text-align: center;
+    text-align: top;
+    font-family: "Sofia";
+    padding-top: 15px;
+}
+
+.name{
+    grid-area: name;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.description{
+    grid-area: descrip;
+    font-size: 15px;
+
+}
+
