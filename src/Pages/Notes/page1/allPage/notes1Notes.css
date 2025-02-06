@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.notes{
+    grid-area: notes;
+
+    display: grid;
+    grid-template-areas: 
+    'm'
+    'head'
+    'topics';
+}
+
+.head-for-notes{
+    grid-area: head;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Sofia';
+    padding-top: 11px;
+}
