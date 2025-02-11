@@ -1,0 +1,10 @@
+.description{
+    grid-area: desc;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}

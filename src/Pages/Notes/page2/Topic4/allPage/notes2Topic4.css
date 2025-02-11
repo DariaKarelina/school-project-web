@@ -1,0 +1,17 @@
+.Topic4{
+    grid-area: T4;
+
+    
+    display: grid;
+    grid-template-areas: 
+    'm'
+    'head-t4';
+
+}
+
+.head-t4{
+    grid-area: head-t4;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Sofia';
+}

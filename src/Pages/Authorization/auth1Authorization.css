@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box; 
+}
+.Authorization{
+    display: grid;
+    grid-template-areas:
+        "head-auth" 
+        "login" 
+        "password" 
+        "sign-on";
+
+    width: 700px;
+    height: 400px;
+    margin: auto; 
+    padding: 20px;
+    background-color: #97a7ee; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 34, 255, 0.245); 
+
+    margin-top: 40px;
+}
+
+.head-auth{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Sofia';
+    font-size: 30px;
+    color: #17293c;
+}
+
+.Authorization textarea{
+    width: 100%; /* Поля занимают 100% ширины контейнера */
+    padding: 10px; /* Отступы внутри полей */
+    margin-bottom: 15px; /* Отступ между полями */
+    border: 1px solid #ccc; /* Граница полей */
+    border-radius: 4px; /* Закругленные углы полей */
+}
+

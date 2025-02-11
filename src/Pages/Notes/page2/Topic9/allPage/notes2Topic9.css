@@ -1,0 +1,17 @@
+.Topic9{
+    grid-area: T9;
+
+    
+    display: grid;
+    grid-template-areas: 
+    'm'
+    'head-t9';
+
+}
+
+.head-t9{
+    grid-area: head-t9;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Sofia';
+}

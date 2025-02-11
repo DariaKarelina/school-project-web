@@ -1,0 +1,17 @@
+.Topic7{
+    grid-area: T7;
+
+    
+    display: grid;
+    grid-template-areas: 
+    'm'
+    'head-t7';
+
+}
+
+.head-t7{
+    grid-area: head-t7;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Sofia';
+}
