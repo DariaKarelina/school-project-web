@@ -1,0 +1,6 @@
+.text{
+    grid-area: t;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 10px; 
+}
