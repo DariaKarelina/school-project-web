@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+.about-c{
+    display: grid;
+    grid-area: a-c;
+
+    grid-template-areas: 
+    "m"
+    "a-c";
+
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
