@@ -1,0 +1,17 @@
+.Topic5{
+    grid-area: T5;
+
+    
+    display: grid;
+    grid-template-areas: 
+    'm'
+    'head-t5';
+
+}
+
+.head-t5{
+    grid-area: head-t5;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Sofia';
+}

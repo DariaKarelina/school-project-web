@@ -1,0 +1,39 @@
+.description-info{
+    grid-area: desc-i;
+    flex: 1; 
+    color: #17293c;
+    padding: 50px; 
+    padding-left: 10px;
+
+    margin-bottom: 20px; 
+}
+
+.deadline{
+    grid-area: deadl;
+    background-color: #97a7ee;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px; 
+    text-align: center;
+
+
+}
+
+.marks{
+    grid-area: marks;
+    text-align: center;
+    background-color: #97a7ee;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px; 
+
+}
+
+.links-to-material{
+    grid-area: links;
+    text-align: center;
+    background-color: #97a7ee;
+    padding: 15px;
+    border-radius: 10px; 
+
+}

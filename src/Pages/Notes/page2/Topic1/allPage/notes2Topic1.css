@@ -1,0 +1,23 @@
+.Topic1{
+    grid-area: T1;
+
+    
+    display: grid;
+    grid-template-areas: 
+    'm'
+    'head-t1';
+
+}
+
+.Topic1 pdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-t1{
+    grid-area: head-t1;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Sofia';
+}

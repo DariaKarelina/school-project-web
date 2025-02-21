@@ -1,0 +1,17 @@
+.Topic6{
+    grid-area: T6;
+
+    
+    display: grid;
+    grid-template-areas: 
+    'm'
+    'head-t6';
+
+}
+
+.head-t6{
+    grid-area: head-t6;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Sofia';
+}
